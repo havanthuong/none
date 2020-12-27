@@ -19,7 +19,7 @@ else {
 
 <li>
 
-<i class="fa fa-dashboard"></i> Bảng điều khiển / Chèn danh mục
+<i class="fa fa-dashboard"></i> Bảng điều khiển / Thêm danh mục
 
 </li>
 
@@ -40,7 +40,7 @@ else {
 
 <h3 class="panel-title"><!-- panel-title Starts -->
 
-<i class="fa fa-money fa-fw"></i> Chèn danh mục
+<i class="fa fa-money fa-fw"></i> Thêm danh mục
 
 </h3><!-- panel-title Ends -->
 

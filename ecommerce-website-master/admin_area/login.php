@@ -10,7 +10,7 @@ include("includes/db.php");
 
 <head>
 
-<title>Admin Login</title>
+<title>Đăng nhập</title>
 
 <link rel="stylesheet" href="css/bootstrap.min.css" >
 
@@ -24,15 +24,15 @@ include("includes/db.php");
 
 <form class="form-login" action="" method="post" ><!-- form-login Starts -->
 
-<h2 class="form-login-heading" >Admin Login</h2>
+<h2 class="form-login-heading" >Đăng nhập</h2>
 
-<input type="text" class="form-control" name="admin_email" placeholder="Email Address" required >
+<input type="text" class="form-control" name="admin_email" placeholder="Email" required >
 
-<input type="password" class="form-control" name="admin_pass" placeholder="Password" required >
+<input type="password" class="form-control" name="admin_pass" placeholder="Mật khẩu" required >
 
 <button class="btn btn-lg btn-primary btn-block" type="submit" name="admin_login" >
 
-Log in
+Đăng nhập
 
 </button>
 
@@ -65,7 +65,7 @@ if($count==1){
 
 $_SESSION['admin_email']=$admin_email;
 
-echo "<script>alert('You are Logged in into admin panel')</script>";
+echo "<script>alert('Đã đăng nhập vào ban quản trị')</script>";
 
 echo "<script>window.open('index.php?dashboard','_self')</script>";
 

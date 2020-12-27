@@ -21,7 +21,7 @@ else {
 
 <li class="active">
 
-<i class="fa fa-dashboard"> </i> Bảng điều khiển / Chèn phiếu giảm giá
+<i class="fa fa-dashboard"> </i> Bảng điều khiển / Thêm phiếu giảm giá
 
 </li>
 

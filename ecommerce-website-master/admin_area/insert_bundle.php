@@ -54,7 +54,7 @@ else {
 
 <h3 class="panel-title">
 
-<i class="fa fa-money fa-fw"></i> Chèn gói
+<i class="fa fa-money fa-fw"></i> Thêm gói
 
 </h3>
 

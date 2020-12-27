@@ -20,7 +20,7 @@ else {
 
 <li class="active">
 
-<i class="fa fa-dashboard"></i> Bảng điều khiển / Chèn quan hệ
+<i class="fa fa-dashboard"></i> Bảng điều khiển / Thêm quan hệ
 
 </li>
 
@@ -41,7 +41,7 @@ else {
 
 <h3 class="panel-title"><!-- panel-title Starts -->
 
-<i  class="fa fa-money fa-fw"></i> Chèn quan hệ
+<i  class="fa fa-money fa-fw"></i> Thêm quan hệ
 
 </h3><!-- panel-title Ends -->
 
