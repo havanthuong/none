@@ -36,49 +36,49 @@ include("includes/main.php");
 
 <?php
 
-$get_services = "select * from services";
+$get_stores = "select * from store";
 
-$run_services = mysqli_query($con,$get_services);
+$run_stores = mysqli_query($con,$get_stores);
 
-while($row_services = mysqli_fetch_array($run_services)){
+while($row_stores = mysqli_fetch_array($run_stores)){
 
-$service_id = $row_services['service_id'];
-
-$service_title = $row_services['service_title'];
-
-$service_image = $row_services['service_image'];
-
-$service_desc = $row_services['service_desc'];
-
-$service_button = $row_services['service_button'];
-
-$service_url = $row_services['service_url'];
-
-?>
-
-<div class="col-md-4 col-sm-6 box"><!-- col-md-4 col-sm-6 box Starts -->
-
-<img src="admin_area/services_images/<?php echo $service_image; ?>" class="img-responsive">
-
-<h2 align="center"> <?php echo $service_title; ?> </h2>
-
-<p>
-<?php echo $service_desc; ?>
-</p>
-
-<center>
-
-<a href="<?php echo $service_url; ?>" class="btn btn-primary">
-
-<?php echo $service_button; ?>
-
-</a>
-
-</center>
-
-</div><!-- col-md-4 col-sm-6 box Ends -->
-
-<?php } ?>
+  $stores_id = $row_stores['store_id'];
+  
+  $stores_title = $row_stores['store_title'];
+  
+  $stores_image = $row_stores['store_image'];
+  
+  $stores_desc = $row_stores['store_desc'];
+  
+  $stores_button = $row_stores['store_button'];
+  
+  $stores_url = $row_stores['store_url'];
+  
+  ?>
+  
+  <div class="col-md-4 col-sm-6 box"><!-- col-md-4 col-sm-6 box Starts -->
+  
+  <img src="admin_area/services_images/<?php echo $stores_image; ?>" class="img-responsive">
+  
+  <h2 align="center"> <?php echo $stores_title; ?> </h2>
+  
+  <p>
+  <?php echo $stores_desc; ?>
+  </p>
+  
+  <center>
+  
+  <a href="<?php echo $stores_url; ?>" class="btn btn-primary">
+  
+  <?php echo $stores_button; ?>
+  
+  </a>
+  
+  </center>
+  
+  </div><!-- col-md-4 col-sm-6 box Ends -->
+  
+  <?php } ?>
 
 </div><!-- services row Ends -->
 
