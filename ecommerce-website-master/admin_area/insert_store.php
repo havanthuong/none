@@ -22,7 +22,7 @@ else {
 
 <li class="active">
 
-<i class="fa fa-dashboard" ></i> Trang tổng quan / Chèn cửa hàng
+<i class="fa fa-dashboard" ></i> Trang tổng quan / Thêm cửa hàng
 
 </li>
 
@@ -42,7 +42,7 @@ else {
 
 <h3 class="panel-title">
 
-<i class="fa fa-money fa-fw"></i> Chèn cửa hàng
+<i class="fa fa-money fa-fw"></i> Thêm cửa hàng
 
 </h3>
 

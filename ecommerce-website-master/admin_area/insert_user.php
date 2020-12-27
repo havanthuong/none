@@ -21,7 +21,7 @@ else {
 
 <li class="active" >
 
-<i class="fa fa-dashboard" ></i> Trang tổng quan / Chèn người dùng
+<i class="fa fa-dashboard" ></i> Trang tổng quan / Thêm người dùng
 
 </li>
 
@@ -43,7 +43,7 @@ else {
 
 <h3 class="panel-title" >
 
-<i class="fa fa-money fa-fw" ></i> Chèn người dùng
+<i class="fa fa-money fa-fw" ></i> Thêm người dùng
 
 </h3>
 

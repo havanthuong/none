@@ -177,7 +177,7 @@ else {
 <ul id="bundles" class="collapse">
 
 <li>
-<a href="index.php?insert_bundle"> Chèn Bundle </a>
+<a href="index.php?insert_bundle"> Thêm Bundle </a>
 </li>
 
 <li>
@@ -261,7 +261,7 @@ else {
 <ul id="p_cat" class="collapse">
 
 <li>
-<a href="index.php?insert_p_cat"> Chèn danh mục sản phẩm </a>
+<a href="index.php?insert_p_cat"> Thêm danh mục sản phẩm </a>
 </li>
 
 <li>
@@ -287,7 +287,7 @@ else {
 <ul id="cat" class="collapse">
 
 <li>
-<a href="index.php?insert_cat"> chèn danh mục </a>
+<a href="index.php?insert_cat"> Thêm danh mục </a>
 </li>
 
 <li>
@@ -346,7 +346,7 @@ else {
 
 <li>
 
-<a href="index.php?insert_enquiry"> Chèn loại yêu cầu </a>
+<a href="index.php?insert_enquiry"> Thêm loại yêu cầu </a>
 
 </li>
 
@@ -384,7 +384,7 @@ else {
 <ul id="coupons" class="collapse"><!-- ul collapse Starts -->
 
 <li>
-<a href="index.php?insert_coupon"> Chèn phiếu giảm giá </a>
+<a href="index.php?insert_coupon"> Thêm phiếu giảm giá </a>
 </li>
 
 <li>
@@ -410,7 +410,7 @@ else {
 <ul id="terms" class="collapse"><!-- ul collapse Starts -->
 
 <li>
-<a href="index.php?insert_term"> Chèn điều khoản </a> 
+<a href="index.php?insert_term"> Thêm điều khoản </a> 
 </li>
 
 <li>
@@ -468,7 +468,7 @@ else {
 <ul id="users" class="collapse">
 
 <li>
-<a href="index.php?insert_user"> Chèn người dùng </a>
+<a href="index.php?insert_user"> Thêm người dùng </a>
 </li>
 
 <li>

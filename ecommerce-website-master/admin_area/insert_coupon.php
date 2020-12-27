@@ -41,7 +41,7 @@ else {
 
 <h3 class="panel-title"><!-- panel-title Starts -->
 
-<i class="fa fa-money fa-fw"> </i> Chèn phiếu giảm giá
+<i class="fa fa-money fa-fw"> </i> Thêm phiếu giảm giá
 
 </h3><!-- panel-title Ends -->
 
