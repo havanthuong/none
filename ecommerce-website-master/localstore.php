@@ -58,7 +58,7 @@ while($row_stores = mysqli_fetch_array($run_stores)){
   
   <div class="col-md-4 col-sm-6 box"><!-- col-md-4 col-sm-6 box Starts -->
   
-  <img src="admin_area/services_images/<?php echo $stores_image; ?>" class="img-responsive">
+  <img src="admin_area/store_images/<?php echo $stores_image; ?>" class="img-responsive">
   
   <h2 align="center"> <?php echo $stores_title; ?> </h2>
   
