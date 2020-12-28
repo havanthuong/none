@@ -21,7 +21,7 @@ else {
 
 <li class="active">
 
-<i class="fa fa-dashboard"></i> Nhà sản xuất Bảng điều khiển / Chèn
+<i class="fa fa-dashboard"></i> Nhà sản xuất Bảng điều khiển / Thêm
 
 </li>
 
@@ -42,7 +42,7 @@ else {
 
 <h3 class="panel-title"><!-- panel-title Starts -->
 
-<i class="fa fa-money fa-fw"> </i> Chèn nhà sản xuất
+<i class="fa fa-money fa-fw"> </i> Thêm nhà sản xuất
 
 </h3><!-- panel-title Ends -->
 

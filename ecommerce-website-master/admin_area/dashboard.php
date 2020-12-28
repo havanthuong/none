@@ -101,7 +101,7 @@ else {
 
 <div class="huge"> <?php echo $count_customers; ?> </div>
 
-<div>Customers</div>
+<div>Khách hàng</div>
 
 </div><!-- col-xs-9 text-right Ends -->
 

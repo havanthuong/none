@@ -20,7 +20,7 @@ else {
 
 <li class="active">
 
-<i class="fa fa-dashboard" ></i> Bảng điều khiển / Chèn Loại yêu cầu
+<i class="fa fa-dashboard" ></i> Bảng điều khiển / Thêm Loại yêu cầu
 
 </li>
 
@@ -40,7 +40,7 @@ else {
 
 <h3 class="panel-title">
 
-<i class="fa fa-money fa-fw"></i> Chèn loại yêu cầu
+<i class="fa fa-money fa-fw"></i> Thêm loại yêu cầu
 
 </h3>
 
