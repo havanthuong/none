@@ -549,12 +549,12 @@ echo "<script>window.open('$pro_url','_self')</script>";
 
 if($status == "product"){
 
-echo "Product Description";
+echo "Mô tả sản phẩm";
 
 }
 else{
 
-echo "Bundle Description";
+echo "Mô tả bundle ";
 
 }
 
@@ -615,7 +615,7 @@ if($status == "product"){
 
 <div class="box same-height headline"><!-- box same-height headline Starts -->
 
-<h3 class="text-center"> Bạn vẫn thích những sản phẩm này </h3>
+<h3 class="text-center"> Những sản phẩm bạn nên quan tâm </h3>
 
 </div><!-- box same-height headline Ends -->
 
@@ -719,7 +719,7 @@ echo "
 
 <p class='buttons' >
 
-<a href='$pro_url' class='btn btn-default' >View details</a>
+<a href='$pro_url' class='btn btn-default' >Xem chi tiết</a>
 
 <a href='$pro_url' class='btn btn-primary'>
 

@@ -101,7 +101,7 @@ if(!isset($_SESSION['customer_email'])){
 
           <li class="categories__item">
               <a class="categories__link" href="customer/my_account.php?my_orders">
-                My Account
+                Tài khoản
                 <i class="icon-down-open-1"></i>
               </a>
               <div class="dropdown dropdown--lookbook">
