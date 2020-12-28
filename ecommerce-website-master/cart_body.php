@@ -347,7 +347,7 @@ echo @$up_cart = update_cart();
 
 <div class="box same-height headline"><!-- box same-height headline Starts -->
 
-<h3 class="text-center"> You also like these Products </h3>
+<h3 class="text-center"> Bạn vẫn thích những sản phầm này </h3>
 
 </div><!-- box same-height headline Ends -->
 

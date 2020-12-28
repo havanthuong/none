@@ -139,7 +139,7 @@ $run_customer = mysqli_query($con,$update_customer);
 
 if($run_customer){
 
-echo "<script>alert('Your account has been updated please login again')</script>";
+echo "<script>alert('Tài khoản của bạn đã được cập nhật, hãy đăng nhập lại')</script>";
 
 echo "<script>window.open('logout.php','_self')</script>";
 

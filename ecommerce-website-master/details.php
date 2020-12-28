@@ -441,7 +441,7 @@ if(isset($_POST['add_wishlist'])){
 
 if(!isset($_SESSION['customer_email'])){
 
-echo "<script>alert('You Must Login To Add Product In Wishlist')</script>";
+echo "<script>alert('Bạn phải đăng nhập để thêm sản phẩm vào danh sách yêu thích')</script>";
 
 echo "<script>window.open('checkout.php','_self')</script>";
 

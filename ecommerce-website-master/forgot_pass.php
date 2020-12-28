@@ -58,11 +58,11 @@ include("includes/main.php");
 
 <form action="" method="post"><!-- form Starts -->
 
-<input type="text" class="form-control" name="c_email" placeholder="Enter Your Email">
+<input type="text" class="form-control" name="c_email" placeholder="Nhập email">
 
 <br>
 
-<input type="submit" name="forgot_pass" class="btn btn-primary" value="Send My Password">
+<input type="submit" name="forgot_pass" class="btn btn-primary" value="Gửi cho tôi mật khẩu">
 
 </form><!-- form Ends -->
 
@@ -111,7 +111,7 @@ $c_pass = $row_c['customer_pass'];
 
 if($count_c == 0){
 
-echo "<script> alert('Sorry, We do not have your email') </script>";
+echo "<script> alert('Xin lỗi, email của bạn không hợp lệ') </script>";
 
 exit();
 
@@ -120,13 +120,13 @@ else{
 
 $message = "
 
-<h1 align='center'> Your Password Has Been Sent To You </h1>
+<h1 align='center'> Mật khẩu đã được gửi cho bạn </h1>
 
 <h2 align='center'> Dear $c_name </h2>
 
 <h3 align='center'>
 
-Your Password is : <span> <b>$c_pass</b> </span>
+Mật khẩu của bạn là : <span> <b>$c_pass</b> </span>
 
 </h3>
 
@@ -134,7 +134,7 @@ Your Password is : <span> <b>$c_pass</b> </span>
 
 <a href='localhost/ecom_store/checkout.php'>
 
-Click Here To Login Your Account
+Click vào đây để đăng nhập
 
 </a>
 
@@ -152,7 +152,7 @@ $headers .= "Content-type: text/html\r\n";
 
 mail($c_email,$subject,$message,$headers);
 
-echo "<script> alert('Your Password has been sent to you, check your inbox ') </script>";
+echo "<script> alert('Mật khẩu đx được gửi cho bạn, hãy kiểm tra hộp thư ') </script>";
 
 echo "<script>window.open('checkout.php','_self')</script>";
 
