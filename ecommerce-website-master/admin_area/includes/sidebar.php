@@ -181,7 +181,7 @@ else {
 </li>
 
 <li>
-<a href="index.php?view_bundles"> View Bundles </a>
+<a href="index.php?view_bundles"> Xem Bundles </a>
 </li>
 
 </ul>
@@ -192,7 +192,7 @@ else {
 
 <a href="#" data-toggle="collapse" data-target="#relations"><!-- anchor Starts -->
 
-<i class="fa fa-fw fa-retweet"></i> Assign Products To Bundles Relations
+<i class="fa fa-fw fa-retweet"></i> Thao tác
 
 <i class="fa fa-fw fa-caret-down"></i>
 
@@ -202,14 +202,14 @@ else {
 
 <li>
 
-<a href="index.php?insert_rel"> Insert Relation </a>
+<a href="index.php?insert_rel"> Thêm quan hệ </a>
 
 </li>
 
 
 <li>
 
-<a href="index.php?view_rel"> View Relations </a>
+<a href="index.php?view_rel"> Xem </a>
 
 </li>
 
@@ -224,7 +224,7 @@ else {
 
 <a href="#" data-toggle="collapse" data-target="#manufacturers"><!-- anchor Starts -->
 
-<i class="fa fa-fw fa-briefcase"></i> Manufacturers
+<i class="fa fa-fw fa-briefcase"></i> Nhà sản xuất
 
 <i class="fa fa-fw fa-caret-down"></i>
 
@@ -234,11 +234,11 @@ else {
 <ul id="manufacturers" class="collapse"><!-- ul collapse Starts -->
 
 <li>
-<a href="index.php?insert_manufacturer"> Insert Manufacturer </a>
+<a href="index.php?insert_manufacturer"> Thêm nhà sản xuất </a>
 </li>
 
 <li>
-<a href="index.php?view_manufacturers"> View Manufacturers </a>
+<a href="index.php?view_manufacturers"> Xem nhà sản xuất </a>
 </li>
 
 </ul><!-- ul collapse Ends -->
@@ -305,7 +305,7 @@ else {
 
 <a href="#" data-toggle="collapse" data-target="#store">
 
-<i class="fa fa-fw fa-briefcase"></i> store
+<i class="fa fa-fw fa-briefcase"></i> Cửa hàng
 
 <i class="fa fa-fw fa-caret-down"></i>
 
@@ -314,11 +314,11 @@ else {
 <ul id="store" class="collapse">
 
 <li>
-<a href="index.php?insert_store"> Insert store </a>
+<a href="index.php?insert_store"> Thêm cửa hàng </a>
 </li>
 
 <li>
-<a href="index.php?view_store"> View store </a>
+<a href="index.php?view_store"> Xem cửa hàng </a>
 </li>
 
 </ul>

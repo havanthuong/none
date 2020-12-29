@@ -52,7 +52,7 @@ else {
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> Tiêu đề yêu cầu </label>
+<label class="col-md-3 control-label"> Tên yêu cầu </label>
 
 <div class="col-md-6">
 
@@ -68,7 +68,7 @@ else {
 
 <div class="col-md-6">
 
-<input type="submit" name="submit" class="btn btn-primary form-control" value="Insert Enquiry Type">
+<input type="submit" name="submit" class="btn btn-primary form-control" value="Thêm">
 
 </div>
 

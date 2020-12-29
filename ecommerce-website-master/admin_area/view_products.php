@@ -41,7 +41,7 @@ else {
 
 <h3 class="panel-title" ><!-- panel-title Starts -->
 
-<i class="fa fa-money fa-fw" ></i> View Products
+<i class="fa fa-money fa-fw" ></i> Xem sản phẩm
 
 </h3><!-- panel-title Ends -->
 
@@ -57,15 +57,15 @@ else {
 <thead>
 
 <tr>
-<th>Product ID</th>
-<th>Product Title</th>
-<th>Product Image</th>
-<th>Product Price</th>
-<th>Product sold</th>
-<th>Product Keywords</th>
-<th>Product Date</th>
-<th>Product Delete</th>
-<th>Product Edit</th>
+<th>Số sản phẩm</th>
+<th>Tên</th>
+<th>Hình ảnh</th>
+<th>Giá</th>
+<th>Đã bán</th>
+<th>Từ khóa sản phẩm</th>
+<th>Ngày sản xuất</th>
+<th>Xóa</th>
+<th>Chỉnh sửa</th>
 
 
 

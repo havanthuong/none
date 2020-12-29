@@ -105,7 +105,7 @@
 				</div>
 				<div class="email">
 					Email:
-					<a href="mailto:18521311@gm.uit.edu.vn" class="email__addr">hotro@gmail.com</a>
+					<a href="mailto:support@yourwebsite.com" class="email__addr">18521311@gm.uit.edu.vn</a>
 				</div>
 			</div>
 

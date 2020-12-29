@@ -53,7 +53,7 @@ else {
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" >Tiêu đề danh mục sản phẩm</label>
+<label class="col-md-3 control-label" >Tên danh mục sản phẩm</label>
 
 <div class="col-md-6" >
 

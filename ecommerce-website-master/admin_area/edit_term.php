@@ -83,7 +83,7 @@ $term_desc = $row_term['term_desc'];
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> Tiêu đề điều khoản </label>
+<label class="col-md-3 control-label"> Tên điều khoản </label>
 
 <div class="col-md-6"><!-- col-md-6 Starts -->
 

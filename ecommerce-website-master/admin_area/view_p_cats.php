@@ -56,10 +56,10 @@ else {
 
 <tr>
 
-<th>Product Category Id</th>
-<th>Product Category Title</th>
-<th>Delete Product Category</th>
-<th>Edit Product Category</th>
+<th>Số thứ tự</th>
+<th>Loại</th>
+<th>Xóa</th>
+<th>Chỉnh sửa</th>
 
 
 </tr>

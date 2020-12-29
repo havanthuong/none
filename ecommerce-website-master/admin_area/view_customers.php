@@ -56,14 +56,14 @@ else {
 
 <tr>
 
-<th>Customer No:</th>
-<th>Customer Name:</th>
-<th>Customer Email:</th>
-<th>Customer Image:</th>
-<th>Customer Country:</th>
-<th>Customer City:</th>
-<th>Customer Phone Number:</th>
-<th>Customer Delete:</th>
+<th>Số khách hàng</th>
+<th>Tên:</th>
+<th>Email:</th>
+<th>Hình ảnh khách hàng:</th>
+<th>Quốc gia:</th>
+<th>Thành phố:</th>
+<th>SĐT:</th>
+<th>Xóa khách hàng:</th>
 
 
 </tr>

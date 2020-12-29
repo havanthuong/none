@@ -73,7 +73,7 @@ $enquiry_title = $row_enquiry_type['enquiry_title'];
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> Tiêu đề yêu cầu </label>
+<label class="col-md-3 control-label"> Tên yêu cầu </label>
 
 <div class="col-md-6">
 

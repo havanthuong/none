@@ -41,7 +41,7 @@ $contact_desc = $row_contact_us['contact_desc'];
 
 <li class="active">
 
-<i class="fa fa-dashboard" ></i> Dashboard / Edit Contact Us
+<i class="fa fa-dashboard" ></i> Bảng điều khiển / Chỉnh sửa liên hệ
 
 </li>
 
@@ -61,7 +61,7 @@ $contact_desc = $row_contact_us['contact_desc'];
 
 <h3 class="panel-title">
 
-<i class="fa fa-money fa-fw"></i> Edit Contact Us  
+<i class="fa fa-money fa-fw"></i> Chỉnh sửa liên hệ 
 
 </h3>
 
@@ -73,7 +73,7 @@ $contact_desc = $row_contact_us['contact_desc'];
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> Contact Email: </label>
+<label class="col-md-3 control-label"> Email: </label>
 
 <div class="col-md-6">
 
@@ -85,7 +85,7 @@ $contact_desc = $row_contact_us['contact_desc'];
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> Contact Heading: </label>
+<label class="col-md-3 control-label"> tên liên hệ: </label>
 
 <div class="col-md-6">
 
@@ -97,7 +97,7 @@ $contact_desc = $row_contact_us['contact_desc'];
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> Contact Description: </label>
+<label class="col-md-3 control-label"> Mô tả: </label>
 
 <div class="col-md-6">
 
@@ -115,7 +115,7 @@ $contact_desc = $row_contact_us['contact_desc'];
 
 <div class="col-md-6">
 
-<input type="submit" name="submit" class="btn btn-primary form-control" value=" Update Contact Us ">
+<input type="submit" name="submit" class="btn btn-primary form-control" value=" Cập nhật ">
 
 </div>
 

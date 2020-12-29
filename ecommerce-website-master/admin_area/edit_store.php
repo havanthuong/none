@@ -85,7 +85,7 @@ $new_s_image = $row_store['store_image'];
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> Tiêu đề cửa hàng : </label>
+<label class="col-md-3 control-label"> Tên cửa hàng : </label>
 
 <div class="col-md-6">
 

@@ -56,10 +56,10 @@ else {
 
 <tr>
 
-<th>Manufacturer Id:</th>
-<th>Manufacturer Title:</th>
-<th>Delete Manufacturer:</th>
-<th>Edit Manufacturer:</th>
+<th>Số nhà sản xuất::</th>
+<th>Tên:</th>
+<th>Xóa:</th>
+<th>Chỉnh sửa:</th>
 
 </tr>
 

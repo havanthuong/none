@@ -53,7 +53,7 @@ else {
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> Tiêu đề phiếu thưởng </label>
+<label class="col-md-3 control-label"> Tên phiếu thưởng </label>
 
 <div class="col-md-6">
 
@@ -163,7 +163,7 @@ echo "<option value='$p_id'> $p_title </option>";
 
 <div class="col-md-6">
 
-<input type="submit" name="submit" class=" btn btn-primary form-control" value=" Insert Coupon ">
+<input type="submit" name="submit" class=" btn btn-primary form-control" value=" Thêm ">
 
 </div>
 

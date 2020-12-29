@@ -57,16 +57,16 @@ else {
 
 <tr>
 
-<th>Order No:</th>
-<th>Customer Email:</th>
-<th>Invoice No:</th>
-<th>Product Title:</th>
-<th>Product Qty:</th>
-<th>Product Size:</th>
-<th>Order Date:</th>
-<th>Total Amount:</th>
-<th>Order Status:</th>
-<th>Delete Order:</th>
+<th>Số đơn đặt hàng:</th>
+<th>Email khách hàng:</th>
+<th>Số hóa đơn:</th>
+<th>Tên sản phẩm:</th>
+<th>Số lượng:</th>
+<th>Size:</th>
+<th>Ngày đặt hàng:</th>
+<th>Tổng cộng:</th>
+<th>Tình trạng đặt hàng:</th>
+<th>Xóa đơn hàng:</th>
 
 
 </tr>
@@ -165,12 +165,12 @@ echo $order_date;
 
 if($order_status=='pending'){
 
-echo $order_status='pending';
+echo $order_status='Đang chờ xử lý';
 
 }
 else{
 
-echo $order_status='Complete';
+echo $order_status='Hoàn thành';
 
 }
 

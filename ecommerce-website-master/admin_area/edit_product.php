@@ -149,7 +149,7 @@ $cat_title = $row_cat['cat_title'];
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Tiêu đề sản phẩm </label>
+<label class="col-md-3 control-label" > Tên sản phẩm </label>
 
 <div class="col-md-6" >
 

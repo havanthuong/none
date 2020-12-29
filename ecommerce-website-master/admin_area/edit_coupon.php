@@ -94,7 +94,7 @@ $product_title = $row_products['product_title'];
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> Tiêu đề phiếu giảm giá </label>
+<label class="col-md-3 control-label"> Tên phiếu giảm giá </label>
 
 <div class="col-md-6">
 

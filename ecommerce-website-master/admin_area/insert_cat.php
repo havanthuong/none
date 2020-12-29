@@ -52,7 +52,7 @@ else {
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label">Tiêu đề danh mục</label>
+<label class="col-md-3 control-label">Tên danh mục</label>
 
 <div class="col-md-6">
 
@@ -98,7 +98,7 @@ else {
 
 <div class="col-md-6">
 
-<input type="submit" name="submit" value="Insert Category" class="btn btn-primary form-control">
+<input type="submit" name="submit" value="Thêm danh mục" class="btn btn-primary form-control">
 
 </div>
 

@@ -59,17 +59,17 @@ else {
 
 <tr>
 
-<th>Relation Id:</th>
+<th>Số quan hệ:</th>
 
-<th>Relation Title:</th>
+<th>Tên:</th>
 
-<th>Relation Product:</th>
+<th>Sản phẩm:</th>
 
-<th>Relation Bundle:</th>
+<th>Gói:</th>
 
-<th>Delete Relation:</th>
+<th>Xóa:</th>
 
-<th>Edit Relation:</th>
+<th>Chỉnh sửa:</th>
 
 
 </tr>

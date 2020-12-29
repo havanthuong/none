@@ -98,7 +98,7 @@ else {
 
 <div class="col-md-6"><!-- col-md-6 Starts -->
 
-<input type="submit" name="submit" value="Insert Term" class="btn btn-primary form-control" >
+<input type="submit" name="submit" value="Thêm" class="btn btn-primary form-control" >
 
 </div><!-- col-md-6 Ends -->
 

@@ -57,7 +57,7 @@ else {
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label">User Name: </label>
+<label class="col-md-3 control-label">Tên: </label>
 
 <div class="col-md-6"><!-- col-md-6 Starts -->
 
@@ -70,7 +70,7 @@ else {
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label">User Email: </label>
+<label class="col-md-3 control-label">Email: </label>
 
 <div class="col-md-6"><!-- col-md-6 Starts -->
 
@@ -83,7 +83,7 @@ else {
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label">User Password: </label>
+<label class="col-md-3 control-label">Password: </label>
 
 <div class="col-md-6"><!-- col-md-6 Starts -->
 
@@ -95,7 +95,7 @@ else {
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label">User Country: </label>
+<label class="col-md-3 control-label">Quốc gia: </label>
 
 <div class="col-md-6"><!-- col-md-6 Starts -->
 
@@ -108,7 +108,7 @@ else {
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label">User Job: </label>
+<label class="col-md-3 control-label">Công việc: </label>
 
 <div class="col-md-6"><!-- col-md-6 Starts -->
 
@@ -121,7 +121,7 @@ else {
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label">User Contact: </label>
+<label class="col-md-3 control-label">Liên hệ: </label>
 
 <div class="col-md-6"><!-- col-md-6 Starts -->
 
@@ -134,7 +134,7 @@ else {
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label">User About: </label>
+<label class="col-md-3 control-label">Mô tả: </label>
 
 <div class="col-md-6"><!-- col-md-6 Starts -->
 
@@ -146,7 +146,7 @@ else {
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label">User Image: </label>
+<label class="col-md-3 control-label">Hình ảnh: </label>
 
 <div class="col-md-6"><!-- col-md-6 Starts -->
 
@@ -163,7 +163,7 @@ else {
 
 <div class="col-md-6"><!-- col-md-6 Starts -->
 
-<input type="submit" name="submit" value="Insert User" class="btn btn-primary form-control">
+<input type="submit" name="submit" value=" Thêm " class="btn btn-primary form-control">
 
 </div><!-- col-md-6 Ends -->
 

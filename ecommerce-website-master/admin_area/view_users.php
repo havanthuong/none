@@ -42,7 +42,7 @@ else {
 
 <h3 class="panel-title" ><!-- panel-title Starts -->
 
-<i class="fa fa-money fa-fw" ></i> View Users
+<i class="fa fa-money fa-fw" ></i> Xem người dùng
 
 </h3><!-- panel-title Ends -->
 
@@ -59,17 +59,17 @@ else {
 
 <tr>
 
-<th>User Name:</th>
+<th>Tên:</th>
 
-<th>User Email:</th>
+<th>Email:</th>
 
-<th>User Image:</th>
+<th>Hình ảnh:</th>
 
-<th>User Country:</th>
+<th>Quốc gia:</th>
 
-<th>User Job:</th>
+<th>Công việc:</th>
 
-<th>Delete User:</th>
+<th>Xóa:</th>
 
 
 </tr>
@@ -120,7 +120,7 @@ $admin_job = $row_admin['admin_job'];
 
 <a href="index.php?user_delete=<?php echo $admin_id; ?>" >
 
-<i class="fa fa-trash-o" ></i> Delete
+<i class="fa fa-trash-o" ></i> Xóa
 
 </a>
 

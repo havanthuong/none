@@ -57,13 +57,13 @@ else {
 
 <tr>
 
-<th>Id Loại yêu cầu</th>
+<th>Số Loại yêu cầu</th>
 
-<th>Yêu cầu Loại Tiêu đề</th>
+<th>Tên</th>
 
-<th>Xóa loại yêu cầu</th>
+<th>Xóa</th>
 
-<th>Chỉnh sửa loại yêu cầu</th>
+<th>Chỉnh sửa</th>
 
 </tr>
 

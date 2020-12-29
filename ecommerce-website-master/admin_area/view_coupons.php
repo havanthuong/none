@@ -56,15 +56,15 @@ else {
 
 <tr>
 
-<th>Coupon Id : </th>
-<th>Coupon Title : </th>
-<th>Product Title : </th>
-<th>Coupon Price : </th>
-<th>Coupon Code : </th>
-<th>Coupon Limit : </th>
-<th>Coupon Used : </th>
-<th>Delete Coupon : </th>
-<th>Edit Coupon : </th>
+<th>Số phiếu: </th>
+<th>Tên phiếu: </th>
+<th>Tên sản phẩm: </th>
+<th>Giá phiếu giảm giá: </th>
+<th>Mã giảm giá: </th>
+<th>Giới hạn phiếu thưởng: </th>
+<th>Phiếu giảm giá đã sử dụng: </th>
+<th>Xóa phiếu giảm giá: </th>
+<th>Chỉnh sửa phiếu giảm giá: </th>
 
 </tr>
 

@@ -312,12 +312,12 @@ echo $customer_email;
 <?php
 if($order_status=='pending'){
 
-echo $order_status='pending';
+echo $order_status='đang chờ xử lý';
 
 }
 else {
 
-echo $order_status='Complete';
+echo $order_status='hoàn thành';
 
 }
 
@@ -339,7 +339,7 @@ echo $order_status='Complete';
 
 <a href="index.php?view_orders" >
 
-View All Orders <i class="fa fa-arrow-circle-right" ></i>
+Xem tất cả các đơn hàng <i class="fa fa-arrow-circle-right" ></i>
 
 </a>
 
@@ -384,7 +384,7 @@ View All Orders <i class="fa fa-arrow-circle-right" ></i>
 
 <hr class="dotted short">
 
-<h5 class="text-muted">About</h5>
+<h5 class="text-muted">Mô tả</h5>
 
 <p>
 <?php echo $admin_about; ?>

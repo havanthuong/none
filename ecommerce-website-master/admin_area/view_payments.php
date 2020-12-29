@@ -58,14 +58,14 @@ else {
 
 <tr>
 
-<th>Payment No:</th>
-<th>Invoice No:</th>
-<th>Amount Paid:</th>
-<th>Payment Method:</th>
-<th>Reference No:</th>
-<th>Payment Code:</th>
-<th>Payment Date:</th>
-<th>Delete Payment:</th>
+<th>Số thanh toán:</th>
+<th>Số hóa đơn:</th>
+<th>Số tiền đã trả:</th>
+<th>Phương thức thanh toán:</th>
+<th>Số Tài liệu tham khảo:</th>
+<th>Mã thanh toán:</th>
+<th>Ngày thanh toán:</th>
+<th>Xóa:</th>
 
 </tr>
 
