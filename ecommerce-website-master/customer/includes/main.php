@@ -74,14 +74,14 @@
           <ul class="categories">
 
             <li class="categories__item">
-              <a class="categories__link" href="#">
+              <a class="categories__link" href="../index.php">
                 Mens
                 <i class="icon-down-open-1"></i>
               </a>
               </li>
 
             <li class="categories__item">
-              <a class="categories__link" href="#">
+              <a class="categories__link" href="../index.php">
                 Womens
             
               </a>
@@ -135,8 +135,6 @@
                     </ul>
                   </div>
                 </div>
-             
-
               </div>
 
             </li>

@@ -20,7 +20,7 @@ include("includes/main.php");
     <!-- HERO -->
     <div class="nero">
       <div class="nero__heading">
-        <span class="nero__bold">tài khoản </span> của tôi
+        <span class="nero__bold">tài khoản của tôi </span> 
       </div>
       <p class="nero__text">
       </p>
@@ -52,17 +52,17 @@ if(!empty($customer_confirm_code)){
 
 ?>
 
-<div class="alert alert-danger"><!-- alert alert-danger Starts -->
+<!-- <div class="alert alert-danger"><!-- alert alert-danger Starts -->
 
-<strong> Cảnh báo! </strong> Vui lòng xác nhận email của bạn và nếu bạn chưa nhận được email xác nhận của mình
+<!-- <strong> Cảnh báo! </strong> Vui lòng xác nhận email của bạn và nếu bạn chưa nhận được email xác nhận của mình -->
 
-<a href="my_account.php?send_email" class="alert-link">
+<!-- <a href="my_account.php?send_email" class="alert-link"> -->
 
-Gửi lại về email
+<!-- Gửi lại về email -->
 
-</a>
+<!-- </a> -->
 
-</div><!-- alert alert-danger Ends -->
+<!-- </div>alert alert-danger Ends --> 
 
 <?php } ?>
 
