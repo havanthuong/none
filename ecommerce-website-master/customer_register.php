@@ -18,7 +18,7 @@ include("includes/main.php");
     <div class="nero">
     <meta charset+"utf-8">
       <div class="nero__heading">
-        <span class="nero__bold">Đăng ký</span> AT AVE
+        <span class="nero__bold">Đăng ký tại cửa hàng chúng tôi</span> 
       </div>
       <p class="nero__text">
       </p>

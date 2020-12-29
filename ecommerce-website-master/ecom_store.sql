@@ -25,7 +25,7 @@ CREATE TABLE `about_us` (
   `about_heading` text NOT NULL,
   `about_short_desc` text NOT NULL,
   `about_desc` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=UTF-8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 
@@ -50,7 +50,7 @@ CREATE TABLE `admins` (
   `admin_country` text NOT NULL,
   `admin_job` varchar(255) NOT NULL,
   `admin_about` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=UTF-8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- `admins`
@@ -70,7 +70,7 @@ CREATE TABLE `bundle_product_relation` (
   `rel_title` varchar(255) NOT NULL,
   `product_id` int(10) NOT NULL,
   `bundle_id` int(10) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=UTF-8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- `bundle_product_relation`
 --
@@ -92,7 +92,7 @@ CREATE TABLE `cart` (
   `qty` int(10) NOT NULL,
   `p_price` varchar(255) NOT NULL,
   `size` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=UTF-8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- --------------------------------------------------------
 
@@ -105,7 +105,7 @@ CREATE TABLE `categories` (
   `cat_title` text NOT NULL,
   `cat_top` text NOT NULL,
   `cat_image` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=UTF-8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 --  `categories`
@@ -128,7 +128,7 @@ CREATE TABLE `contact_us` (
   `contact_email` text NOT NULL,
   `contact_heading` text NOT NULL,
   `contact_desc` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=UTF-8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 --  `contact_us`
@@ -151,7 +151,7 @@ CREATE TABLE `coupons` (
   `coupon_code` varchar(255) NOT NULL,
   `coupon_limit` int(100) NOT NULL,
   `coupon_used` int(100) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=UTF-8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 --  `coupons`
@@ -178,7 +178,7 @@ CREATE TABLE `customers` (
   `customer_image` text NOT NULL,
   `customer_ip` varchar(255) NOT NULL,
   `customer_confirm_code` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=UTF-8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- `customers`
@@ -203,7 +203,7 @@ CREATE TABLE `customer_orders` (
   `size` text NOT NULL,
   `order_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `order_status` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=UTF-8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- `customer_orders`
@@ -226,7 +226,7 @@ INSERT INTO `customer_orders` (`order_id`, `customer_id`, `due_amount`, `invoice
 CREATE TABLE `enquiry_types` (
   `enquiry_id` int(10) NOT NULL,
   `enquiry_title` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=UTF-8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 --  `enquiry_types`
@@ -248,7 +248,7 @@ CREATE TABLE `manufacturers` (
   `manufacturer_title` text NOT NULL,
   `manufacturer_top` text NOT NULL,
   `manufacturer_image` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=UTF-8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 --  `manufacturers`
@@ -275,7 +275,7 @@ CREATE TABLE `payments` (
   `ref_no` int(10) NOT NULL,
   `code` int(10) NOT NULL,
   `payment_date` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=UTF-8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- `payments`
@@ -299,7 +299,7 @@ CREATE TABLE `pending_orders` (
   `qty` int(10) NOT NULL,
   `size` text NOT NULL,
   `order_status` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=UTF-8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 --  `pending_orders`
@@ -316,7 +316,7 @@ INSERT INTO `pending_orders` (`order_id`, `customer_id`, `invoice_no`, `product_
 -- --------------------------------------------------------
 
 --
---`products`
+-- `products`
 --
 
 CREATE TABLE `products` (
@@ -338,17 +338,17 @@ CREATE TABLE `products` (
   `product_keywords` text NOT NULL,
   `product_label` text NOT NULL,
   `status` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=UTF-8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- `products`
 --
 
 INSERT INTO `products` (`product_id`, `p_cat_id`, `cat_id`, `manufacturer_id`, `date`, `product_title`, `product_url`, `product_img1`, `product_img2`, `product_img3`, `product_price`, `product_psp_price`, `product_desc`, `product_features`, `product_video`, `product_keywords`, `product_label`, `status`) VALUES
-(1, 5, 4, 3, '2017-02-15 10:48:40', 'New T-Shirt', 'new-t-shirt', 'img1.jpg', 'img2.jpg', 'img3.jpg', 70, 50, '<p>Integer sapien buồn và váy. Cư dân dinh dưỡng bóng đá netus et malesuada già nua và xấu xí đói nghèo. Tuy nhiên, tài chính và sâu, nhưng CNN rượu. Ngày mai các nhà phát triển xe khí phát triển bóng đá Lò vi sóng hoặc mang thai trước đó. Các nhà phát triển một số người chơi. Nhưng tôi ước có một số người tìm kiếm cà rốt, tác giả truyền hình zero </ p> ',' <p> Có một thực tế lâu đời rằng người đọc sẽ bị phân tâm bởi nội dung có thể đọc được của một trang khi nhìn vào bố cục của nó. Điểm đáng chú ý của việc sử dụng lorem ipsum là nó có sự phân bố các chữ cái bình thường ít nhiều,</p>', '<iframe width=\"854\" height=\"480\" src=\"https://www.youtube.com/embed/BxjtpdWeGtI\" frameborder=\"0\" allowfullscreen></iframe>', 'T-Shirts', 'Sale', 'product'),
+(1, 5, 4, 3, '2017-02-15 10:48:40', 'New T-Shirt', 'new-t-shirt', 'img1.jpg', 'img2.jpg', 'img3.jpg', 70, 50, '<p>Integer sapien buồn và váy. Cư dân dinh dưỡng bóng đá netus et malesuada già nua và xấu xí đói nghèo. Tuy nhiên, tài chính và sâu, nhưng CNN rượu. Ngày mai các nhà phát triển xe khí phát triển bóng đá Lò vi sóng hoặc mang thai trước đó. Các nhà phát triển một số người chơi. Nhưng tôi ước có một số người tìm kiếm cà rốt, tác giả truyền hình zero </ p> ',' <p> Có một thực tế lâu đời rằng người đọc sẽ bị phân tâm bởi nội dung có thể đọc được của một trang khi nhìn vào bố cục của nó. Điểm đáng chú ý của việc sử dụng lorem ipsum là nó có sự phân bố các chữ cái bình thường ít nhiều,</p>', '<iframe width=\"854\" height=\"480\" src=\"https://www.youtube.com/watch?v=Degbj6iTpmw" frameborder=\"0\" allowfullscreen></iframe>', 'T-Shirts', 'Sale', 'product'),
 (2, 5, 3, 2, '2017-02-15 10:48:48', 'U.S. Polo Assn. Blue Polos shirt', 'product-url-2', 'U-S--Polo-Assn--Blue-Polos-0266-586842-1-pdp_slider_l.jpg', 'U-S--Polo-Assn--Blue-Polos-0268-586842-2-pdp_slider_l.jpg', 'U-S--Polo-Assn--Blue-Polos-0271-586842-3-pdp_slider_l.jpg', 69, 45, '<p>Integer sapien buồn và váy. Cư dân dinh dưỡng bóng đá netus et malesuada già nua và xấu xí đói nghèo. Tuy nhiên, tài chính và sâu, nhưng CNN rượu. Ngày mai các nhà phát triển xe khí phát triển bóng đá Lò vi sóng hoặc mang thai trước đó. Các nhà phát triển một số người chơi. Nhưng tôi ước gì có một số người tìm kiếm cà rốt, tác giả truyền hình của số 0. </ p> ',' Có một thực tế lâu đời rằng người đọc sẽ bị phân tâm bởi nội dung có thể đọc được của một trang khi nhìn vào bố cục của nó. Điểm đáng chú ý của việc sử dụng lorem ipsum là nó có sự phân bố các chữ cái bình thường ít nhiều,', '<iframe width=\"854\" height=\"480\" src=\"https://www.youtube.com/embed/qRswlmADRa8\" frameborder=\"0\" allowfullscreen></iframe>', 'T-Shirt', 'Gift', 'product'),
 (3, 5, 3, 6, '2017-02-15 10:48:52', 'BENETTON White Polo Shirt', 'product-url-3', 'United-Colors-of-Benetton-White-Polo-Shirt-0608-0914361-1-pdp_slider_l.jpg', 'United-Colors-of-Benetton-White-Polo-Shirt-0608-0914361-2-pdp_slider_l.jpg', 'United-Colors-of-Benetton-White-Polo-Shirt-0609-0914361-3-pdp_slider_l.jpg', 98, 0, '<p>
-Integer sapien buồn và váy. Cư dân dinh dưỡng bóng đá netus et malesuada già nua và xấu xí đói nghèo. Tuy nhiên, tài chính và sâu, nhưng CNN rượu. Ngày mai các nhà phát triển xe khí phát triển bóng đá Lò vi sóng hoặc mang thai trước đó. Các nhà phát triển một số người chơi. Nhưng tôi ước gì có một số người tìm kiếm cà rốt, tác giả truyền hình zero </ p> ',' Có một thực tế lâu đời rằng người đọc sẽ bị phân tâm bởi nội dung có thể đọc được của một trang khi nhìn vào bố cục của nó. Điểm đáng chú ý của việc sử dụng lorem ipsum là nó có sự phân bố các chữ cái bình thường ít nhiều,', '<iframe width=\"854\" height=\"480\" src=\"https://www.youtube.com/embed/qRswlmADRa8\" frameborder=\"0\" allowfullscreen></iframe>', 'T-Shirt', 'New', 'product'),
+Integer sapien buồn và váy. Cư dân dinh dưỡng bóng đá netus et malesuada già nua và xấu xí đói nghèo. Tuy nhiên, tài chính và sâu, nhưng CNN rượu. Ngày mai các nhà phát triển xe khí phát triển bóng đá Lò vi sóng hoặc mang thai trước đó. Các nhà phát triển một số người chơi. Nhưng tôi ước gì có một số người tìm kiếm cà rốt, tác giả truyền hình zero </ p> ',' Có một thực tế lâu đời rằng người đọc sẽ bị phân tâm bởi nội dung có thể đọc được của một trang khi nhìn vào bố cục của nó. Điểm đáng chú ý của việc sử dụng lorem ipsum là nó có sự phân bố các chữ cái bình thường ít nhiều,', '<iframe width=\"854\" height=\"480\" src=\"https://www.youtube.com/watch?v=tUO7q0qNlNM" frameborder=\"0\" allowfullscreen></iframe>', 'T-Shirt', 'New', 'product'),
 (4, 7, 5, 5, '2017-02-19 06:49:39', 'Navy Blue Solid Denim Jacket', 'product-url-4', 'Levi-s-Blue-Solid-Denim-Jacket-5953-6506172-1-pdp_slider_l.jpg', 'Levi-s-Blue-Solid-Denim-Jacket-5953-6506172-2-pdp_slider_l.jpg', 'Levi-s-Blue-Solid-Denim-Jacket-5953-6506172-3-pdp_slider_l.jpg', 230, 150, '<p>Integer sapien buồn và váy. Cư dân dinh dưỡng bóng đá netus et malesuada già nua và xấu xí đói nghèo. Tuy nhiên, tài chính và sâu, nhưng CNN rượu. Ngày mai các nhà phát triển xe khí phát triển bóng đá Lò vi sóng hoặc mang thai trước đó. Các nhà phát triển một số người chơi. Nhưng tôi ước gì có một số người tìm kiếm cà rốt, tác giả truyền hình của số 0. </ p> ',' Có một thực tế lâu đời rằng người đọc sẽ bị phân tâm bởi nội dung có thể đọc được của một trang khi nhìn vào bố cục của nó. Điểm đáng chú ý của việc sử dụng lorem ipsum là nó có sự phân bố các chữ cái bình thường ít nhiều,', '<iframe width=\"854\" height=\"480\" src=\"https://www.youtube.com/embed/qRswlmADRa8\" frameborder=\"0\" allowfullscreen></iframe>', 'Jackets', 'Sale', 'product'),
 (5, 7, 5, 5, '2017-02-19 06:45:07', 'Denim Borg Lined Western Jacket', 'product-url-5', 'Next-Denim-Borg-Lined-Western-Jacket-0463-0064553-1-pdp_slider_l.jpg', 'Next-Denim-Borg-Lined-Western-Jacket-0463-0064553-2-pdp_slider_l.jpg', 'Next-Denim-Borg-Lined-Western-Jacket-0465-0064553-3-pdp_slider_l.jpg', 259, 100, '<p>
 Integer sapien buồn và váy. Cư dân dinh dưỡng bóng đá netus et malesuada già nua và xấu xí đói nghèo. Tuy nhiên, tài chính và sâu, nhưng CNN rượu. Ngày mai các nhà phát triển xe khí phát triển bóng đá Lò vi sóng hoặc mang thai trước đó. Các nhà phát triển một số người chơi. Nhưng tôi ước gì có một số người tìm kiếm cà rốt, tác giả truyền hình của số 0. </ p> ',' Có một thực tế lâu đời rằng người đọc sẽ bị phân tâm bởi nội dung có thể đọc được của một trang khi nhìn vào bố cục của nó. Điểm đáng chú ý của việc sử dụng lorem ipsum là nó có sự phân bố các chữ cái bình thường ít nhiều,', '<iframe width=\"854\" height=\"480\" src=\"https://www.youtube.com/embed/qRswlmADRa8\" frameborder=\"0\" allowfullscreen></iframe>', 'Jackets', 'Gift', 'product'),
@@ -358,7 +358,7 @@ Integer sapien buồn và váy. Cư dân dinh dưỡng bóng đá netus et males
 (8, 4, 2, 4, '2017-02-15 10:49:11', 'Sleeveless Faux Fur Hybrid Coat', 'product-url-8', 'Black Blouse Versace Coat1.jpg', 'Black Blouse Versace Coat2.jpg', 'Black Blouse Versace Coat3.jpg', 245, 100, '<p>Integer sapien buồn và váy. Cư dân dinh dưỡng bóng đá netus et malesuada già nua và xấu xí đói nghèo. Tuy nhiên, tài chính và sâu, nhưng CNN rượu. Ngày mai các nhà phát triển xe khí phát triển bóng đá Lò vi sóng hoặc mang thai trước đó. Các nhà phát triển một số người chơi. Nhưng tôi ước có một số cà rốt semper, tác giả truyền hình nulla.Integer buồn nó sapien và một chiếc váy. Cư dân dinh dưỡng bóng đá netus et malesuada già nua và xấu xí đói nghèo. Tuy nhiên, tài chính và sâu, nhưng CNN rượu. Ngày mai các nhà phát triển xe khí phát triển bóng đá Lò vi sóng hoặc mang thai trước đó. Các nhà phát triển một số người chơi. Nhưng tôi ước gì có một số người tìm kiếm cà rốt, tác giả truyền hình của số 0. </ p> ',' Có một thực tế lâu đời rằng người đọc sẽ bị phân tâm bởi nội dung có thể đọc được của một trang khi nhìn vào bố cục của nó. Điểm đáng chú ý của việc sử dụng lorem ipsum là nó có sự phân bố các chữ cái bình thường ít nhiều,', '<iframe width=\"854\" height=\"480\" src=\"https://www.youtube.com/embed/qRswlmADRa8\" frameborder=\"0\" allowfullscreen></iframe>', 'Coats', 'Gift', 'product'),
 (9, 5, 4, 2, '2017-02-19 06:46:14', 'Remind Printed T-Shirt', 'product-url-9', 'product-1.jpg', 'product-2.jpg', 'product-3.jpg', 50, 0, '<p>
 Integer sapien buồn và váy. Cư dân dinh dưỡng bóng đá netus et malesuada già nua và xấu xí đói nghèo. Tuy nhiên, tài chính và sâu, nhưng CNN rượu. Ngày mai các nhà phát triển xe khí phát triển bóng đá Lò vi sóng hoặc mang thai trước đó. Các nhà phát triển một số người chơi. Nhưng tôi ước có một số cà rốt semper, tác giả truyền hình nulla.Integer buồn nó sapien và một chiếc váy. Cư dân dinh dưỡng bóng đá netus et malesuada già nua và xấu xí đói nghèo. Tuy nhiên, tài chính và sâu, nhưng CNN rượu. Ngày mai các nhà phát triển xe khí phát triển bóng đá Lò vi sóng hoặc mang thai trước đó. Các nhà phát triển một số người chơi. Nhưng tôi ước gì có một số người tìm kiếm cà rốt, tác giả truyền hình của số 0. </ p> ',' Có một thực tế lâu đời rằng người đọc sẽ bị phân tâm bởi nội dung có thể đọc được của một trang khi nhìn vào bố cục của nó. Điểm đáng chú ý của việc sử dụng lorem ipsum là nó có sự phân bố các chữ cái bình thường ít nhiều,', '<iframe width=\"854\" height=\"480\" src=\"https://www.youtube.com/embed/qRswlmADRa8\" frameborder=\"0\" allowfullscreen></iframe>', 'T-Shirt', 'New', 'product'),
-(11, 7, 5, 5, '2017-02-20 06:21:03', 'jacket bundle', 'jacket-bundle', 'jacket-1.jpg', 'jacket-2.jpg', 'jacket-3.jpg', 300, 200, '<p>Trái với suy nghĩ của nhiều người, Lorem Ipsum không chỉ đơn giản là văn bản ngẫu nhiên. Nó có nguồn gốc từ một tác phẩm văn học Latinh cổ điển từ năm 45 trước Công nguyên, đã có hơn 2000 năm tuổi. Richard McClintock, một giáo sư tiếng Latinh tại Đại học Hampden-Sydney ở Virginia, đã tra cứu một trong những từ Latinh khó hiểu hơn, consectetur, từ một đoạn văn của Lorem Ipsum, và xem qua các trích dẫn của từ này trong văn học cổ điển, đã phát hiện ra nguồn không thể chối cãi. / p> ',' <p> Trái với suy nghĩ thông thường, Lorem Ipsum không chỉ đơn giản là văn bản ngẫu nhiên. Nó có nguồn gốc từ một tác phẩm văn học Latinh cổ điển từ năm 45 trước Công nguyên, đã có hơn 2000 năm tuổi. Richard McClintock, giáo sư tiếng Latinh tại Đại học Hampden-Sydney ở Virginia, đã tra cứu một trong những từ Latinh khó hiểu hơn, consectetur, từ một đoạn văn của Lorem Ipsum, và xem qua các trích dẫn của từ này trong văn học cổ điển, đã phát hiện ra nguồn gốc không thể chối cãi.</p>', '<iframe width=\"854\" height=\"480\" src=\"https://www.youtube.com/embed/qImi3vNccaU\" frameborder=\"0\" allowfullscreen></iframe>', 'jacket bundle', 'Sale', 'bundle');
+(11, 7, 5, 5, '2020-11-20 06:21:03', 'jacket bundle', 'jacket-bundle', 'jacket-1.jpg', 'jacket-2.jpg', 'jacket-3.jpg', 300, 200, '<p>Trái với suy nghĩ của nhiều người, Lorem Ipsum không chỉ đơn giản là văn bản ngẫu nhiên. Nó có nguồn gốc từ một tác phẩm văn học Latinh cổ điển từ năm 45 trước Công nguyên, đã có hơn 2000 năm tuổi. Richard McClintock, một giáo sư tiếng Latinh tại Đại học Hampden-Sydney ở Virginia, đã tra cứu một trong những từ Latinh khó hiểu hơn, consectetur, từ một đoạn văn của Lorem Ipsum, và xem qua các trích dẫn của từ này trong văn học cổ điển, đã phát hiện ra nguồn không thể chối cãi. / p> ',' <p> Trái với suy nghĩ thông thường, Lorem Ipsum không chỉ đơn giản là văn bản ngẫu nhiên. Nó có nguồn gốc từ một tác phẩm văn học Latinh cổ điển từ năm 45 trước Công nguyên, đã có hơn 2000 năm tuổi. Richard McClintock, giáo sư tiếng Latinh tại Đại học Hampden-Sydney ở Virginia, đã tra cứu một trong những từ Latinh khó hiểu hơn, consectetur, từ một đoạn văn của Lorem Ipsum, và xem qua các trích dẫn của từ này trong văn học cổ điển, đã phát hiện ra nguồn gốc không thể chối cãi.</p>', '<iframe width=\"854\" height=\"480\" src=\"https://www.youtube.com/embed/qImi3vNccaU\" frameborder=\"0\" allowfullscreen></iframe>', 'jacket bundle', 'Sale', 'bundle');
 
 -- --------------------------------------------------------
 
@@ -371,7 +371,7 @@ CREATE TABLE `product_categories` (
   `p_cat_title` text NOT NULL,
   `p_cat_top` text NOT NULL,
   `p_cat_image` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=UTF-8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- `product_categories`
@@ -396,7 +396,7 @@ CREATE TABLE `store` (
   `store_desc` text NOT NULL,
   `store_button` varchar(255) NOT NULL,
   `store_url` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=UTF-8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 --`store`
@@ -418,7 +418,7 @@ CREATE TABLE `terms` (
   `term_title` varchar(100) NOT NULL,
   `term_link` varchar(100) NOT NULL,
   `term_desc` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=UTF-8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 --  `terms`
@@ -439,7 +439,7 @@ CREATE TABLE `wishlist` (
   `wishlist_id` int(10) NOT NULL,
   `customer_id` int(10) NOT NULL,
   `product_id` int(10) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=UTF-8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 --  `wishlist`

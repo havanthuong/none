@@ -121,7 +121,7 @@ include("includes/main.php");
             </div>
             <div class="email">
               Email:
-              <a href="mailto:support@yourwebsite.com" class="email__addr">hotro@gmail.com</a>
+              <a href="mailto:18521475@gm.uit.edu.vn" class="email__addr">hotro@gmail.com</a>
             </div>
           </div>
 

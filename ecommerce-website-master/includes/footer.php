@@ -83,10 +83,9 @@
 				</div>
 				<div class="email">
 				Email:
-				<a href="mailto:support@yourwebsite.com" class="email__addr">support@yourwebsite.com</a>
+				<a href="mailto:1851475@gm.uit.edu.vn" class="email__addr">hotro@gmail.com</a>
 				</div>
 			</div>
-
 		</div>
 	</div>
 
