@@ -72,7 +72,7 @@ echo "<script>window.open('index.php?dashboard','_self')</script>";
 }
 else {
 
-echo "<script>alert('Email or Password is Wrong')</script>";
+echo "<script>alert('Email hoặc mật khẩu của bạn sai')</script>";
 
 }
 
