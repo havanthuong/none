@@ -403,7 +403,7 @@ CREATE TABLE `store` (
 --
 
 INSERT INTO `store` (`store_id`, `store_title`, `store_image`, `store_desc`, `store_button`, `store_url`) VALUES
-(4, 'Trụ sở chính London', 'store_3.jpg', '<p style=\"text-align: center;\"><strong>180-182 RECENTS STREET, LONDON, W1B 5BT</strong></p>\r\n<p>Cửa hàng đầu tiên đưuọc chúng tôi xây dựng được đầu tư khá nhiêu tâm huyết. Đây là trụ sở chính. </p>', 'View Map', 'http://www.thedailylux.com/ecommerce'),
+(4, 'Trụ sở chính London', 'store_3.jpg', '<p style=\"text-align: center;\"><strong>180-182 RECENTS STREET, LONDON, W1B 5BT</strong></p>\r\n<p>Cửa hàng đầu tiên được chúng tôi xây dựng được đầu tư khá nhiêu tâm huyết. Đây là trụ sở chính. </p>', 'View Map', 'http://www.thedailylux.com/ecommerce'),
 (5, 'Chinh nhánh tại New York', 'store_1.png', '<p style=\"text-align: center;\"><strong>109 COLUMBUS CIRCLE, NEW YORK, NY10023</strong></p>\r\n<p>Các chi nhánh cũng bắt đầu hình thành tại các thành phố khác. Chúng tôi tự hào vì chúng là thương hiệu của chúng tôi.</p>', 'View Map', 'http://www.thedailylux.com/ecommerce'),
 (6, 'Chinh nhánh tại Paris', 'store_2.jpg', '<p style=\"text-align: center;\"><strong>2133 RUE SAINT-HONORE, 75001 PARIS&nbsp;</strong></p>\r\n<p>Các chi nhánh cũng bắt đầu hình thành tại các thành phố khác. Chúng tôi tự hào vì chúng là thương hiệu của chúng tôi.</p>', 'View Map', 'http://www.thedailylux.com/ecommerce');
 
